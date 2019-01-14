@@ -1,0 +1,1 @@
+dependencies { implementation("flyway-core") }
