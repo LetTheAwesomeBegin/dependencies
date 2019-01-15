@@ -9,11 +9,18 @@ subprojects {
         maven {
             url = uri("https://repo.spring.io/milestone")
         }
+        maven {
+            url = uri("https://plugins.gradle.org/m2/")
+        }
     }
     ext {
         set("azureVersion", "2.0.5")
         set("camelVersion", "2.23.0")
+        set("immutablesVersion", "2.7.5")
         set("mybatisSpringBootVersion", "1.3.2")
+        set("mapstructVersion", "1.2.0.Final")
+        set("protobufVersion", "3.6.1")
+        set("protobufGradlePluginVersion", "0.8.7")
         set("springBootVersion", "2.1.1.RELEASE")
         set("springBootAdminVersion", "2.1.1")
         set("springCloudServicesVersion", "2.0.3.RELEASE")
