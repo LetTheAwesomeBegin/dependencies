@@ -1,1 +1,1 @@
-dependencies { implementation("reactor-test") }
+dependencies { implementation("io.projectreactor:reactor-test") }

@@ -1,1 +1,1 @@
-dependencies { implementation("mssql-jdbc") }
+dependencies { implementation("com.microsoft.sqlserver:mssql-jdbc") }

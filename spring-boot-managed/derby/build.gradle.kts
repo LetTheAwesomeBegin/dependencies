@@ -1,1 +1,3 @@
-dependencies { implementation("derby") }
+dependencies {
+    implementation("org.apache.derby:derby")
+}

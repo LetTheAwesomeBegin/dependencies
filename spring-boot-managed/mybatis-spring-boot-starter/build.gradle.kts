@@ -1,1 +1,1 @@
-dependencies { implementation("mybatis-spring-boot-starter") }
+dependencies { implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:${extra["mybatisSpringBootVersion"]}") }

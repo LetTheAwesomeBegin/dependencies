@@ -1,1 +1,1 @@
-dependencies { implementation("flyway-core") }
+dependencies { implementation("org.flywaydb:flyway-core") }

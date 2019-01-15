@@ -1,1 +1,1 @@
-dependencies { implementation("liquibase-core") }
+dependencies { implementation("org.liquibase:liquibase-core") }

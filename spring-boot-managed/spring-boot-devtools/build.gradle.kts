@@ -1,1 +1,1 @@
-dependencies { implementation("spring-boot-devtools") }
+dependencies { implementation("org.springframework.boot:spring-boot-devtools") }

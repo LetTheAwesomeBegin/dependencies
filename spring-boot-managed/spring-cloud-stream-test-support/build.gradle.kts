@@ -1,1 +1,1 @@
-dependencies { implementation("spring-cloud-stream-test-support") }
+dependencies { implementation("org.springframework.cloud:spring-cloud-stream-test-support") }

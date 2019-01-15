@@ -1,1 +1,1 @@
-dependencies { implementation("kafka-streams") }
+dependencies { implementation("org.apache.kafka:kafka-streams") }

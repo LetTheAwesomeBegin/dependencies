@@ -1,1 +1,1 @@
-dependencies { implementation("spring-cloud-services-starter-config-client") }
+dependencies { implementation("io.pivotal.spring.cloud:spring-cloud-services-starter-config-client") }

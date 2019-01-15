@@ -1,1 +1,1 @@
-dependencies { implementation("spring-boot-configuration-processor") }
+dependencies { implementation("org.springframework.boot:spring-boot-configuration-processor") }

@@ -1,1 +1,1 @@
-dependencies { implementation("spring-restdocs-mockmvc") }
+dependencies { implementation("org.springframework.restdocs:spring-restdocs-mockmvc") }

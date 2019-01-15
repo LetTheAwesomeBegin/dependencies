@@ -1,1 +1,1 @@
-dependencies { implementation("de.flapdoodle.embed.mongo") }
+dependencies { implementation("de.flapdoodle.embed:de.flapdoodle.embed.mongo") }

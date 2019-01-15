@@ -1,1 +1,1 @@
-dependencies { implementation("spring-boot-admin-starter-server") }
+dependencies { implementation("de.codecentric:spring-boot-admin-starter-server") }

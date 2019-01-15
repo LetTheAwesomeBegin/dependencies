@@ -1,1 +1,1 @@
-dependencies { implementation("spring-security-test") }
+dependencies { implementation("org.springframework.security:spring-security-test") }

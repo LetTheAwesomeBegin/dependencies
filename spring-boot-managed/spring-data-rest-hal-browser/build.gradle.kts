@@ -1,1 +1,1 @@
-dependencies { implementation("spring-data-rest-hal-browser") }
+dependencies { implementation("org.springframework.data:spring-data-rest-hal-browser") }

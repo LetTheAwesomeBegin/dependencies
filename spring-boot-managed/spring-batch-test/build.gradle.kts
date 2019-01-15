@@ -1,1 +1,1 @@
-dependencies { implementation("spring-batch-test") }
+dependencies { implementation("org.springframework.batch:spring-batch-test") }

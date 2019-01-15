@@ -1,1 +1,1 @@
-dependencies { implementation("spring-kafka-test") }
+dependencies { implementation("org.springframework.kafka:spring-kafka-test") }

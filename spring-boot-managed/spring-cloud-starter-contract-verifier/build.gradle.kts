@@ -1,1 +1,1 @@
-dependencies { implementation("spring-cloud-starter-contract-verifier") }
+dependencies { implementation("org.springframework.cloud:spring-cloud-starter-contract-verifier") }

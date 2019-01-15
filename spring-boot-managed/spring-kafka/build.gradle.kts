@@ -1,1 +1,1 @@
-dependencies { implementation("spring-kafka") }
+dependencies { implementation("org.springframework.kafka:spring-kafka") }

@@ -1,4 +1,4 @@
 dependencies {
-    implementation(platform("com.vaadin:vaadin-bom:12.0.3"))
-    implementation("vaadin-spring-boot-starter")
+    implementation(platform("com.vaadin:vaadin-bom:${extra["vaadinVersion"]}"))
+    implementation("com.vaadin:vaadin-bom:vaadin-spring-boot-starter")
 }

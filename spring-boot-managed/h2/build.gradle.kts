@@ -1,1 +1,1 @@
-dependencies { implementation("h2") }
+dependencies { implementation("com.h2database:h2") }

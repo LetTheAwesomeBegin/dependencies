@@ -1,1 +1,1 @@
-dependencies { implementation("postgresql") }
+dependencies { implementation("org.postgresql:postgresql") }

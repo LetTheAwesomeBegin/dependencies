@@ -1,1 +1,1 @@
-dependencies { implementation("spring-cloud-starter-contract-stub-runner") }
+dependencies { implementation("org.springframework.cloud:spring-cloud-starter-contract-stub-runner") }

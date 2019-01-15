@@ -1,1 +1,1 @@
-dependencies { implementation("camel-spring-boot-starter") }
+dependencies { implementation("org.apache.camel:camel-spring-boot-starter:${extra["camelVersion"]}") }

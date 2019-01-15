@@ -1,1 +1,1 @@
-dependencies { implementation("spring-retry") }
+dependencies { implementation("org.springframework.retry:spring-retry") }

@@ -1,1 +1,1 @@
-dependencies { implementation("lombok") }
+dependencies { implementation("org.projectlombok:lombok") }

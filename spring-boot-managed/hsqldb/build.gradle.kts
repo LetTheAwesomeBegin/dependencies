@@ -1,1 +1,1 @@
-dependencies { implementation("hsqldb") }
+dependencies { implementation("org.hsqldb:hsqldb") }

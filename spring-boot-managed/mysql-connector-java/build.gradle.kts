@@ -1,1 +1,1 @@
-dependencies { implementation("mysql-connector-java") }
+dependencies { implementation("mysql:mysql-connector-java") }
