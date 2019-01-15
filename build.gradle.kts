@@ -15,6 +15,7 @@ subprojects {
     }
     ext {
         set("awsJavaSdkVersion", "1.11.482")
+        set("awsJavaSdk2Version", "2.3.1")
         set("azureVersion", "2.0.5")
         set("camelVersion", "2.23.0")
         set("immutablesVersion", "2.7.5")
@@ -63,5 +64,11 @@ configure(subprojects.filter { it.name.startsWith("azure-") }) {
 configure(subprojects.filter { it.name.startsWith("com.amazonaws_") }) {
     dependencies {
         "implementation"(platform("com.amazonaws:aws-java-sdk-bom:${extra["awsJavaSdkVersion"]}"))
+    }
+}
+
+configure(subprojects.filter { it.name.startsWith("software.amazon.awssdk_") }) {
+    dependencies {
+        "implementation"(platform("software.amazon.awssdk:bom:${extra["awsJavaSdk2Version"]}"))
     }
 }
