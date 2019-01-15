@@ -14,6 +14,7 @@ subprojects {
         }
     }
     ext {
+        set("awsJavaSdkVersion", "1.11.482")
         set("azureVersion", "2.0.5")
         set("camelVersion", "2.23.0")
         set("immutablesVersion", "2.7.5")
@@ -56,5 +57,11 @@ configure(subprojects.filter { it.name.startsWith("spring-cloud-services-") }) {
 configure(subprojects.filter { it.name.startsWith("azure-") }) {
     dependencies {
         "implementation"(platform("com.microsoft.azure:azure-spring-boot-bom:${extra["azureVersion"]}"))
+    }
+}
+
+configure(subprojects.filter { it.name.startsWith("com.amazonaws_") }) {
+    dependencies {
+        "implementation"(platform("com.amazonaws:aws-java-sdk-bom:${extra["awsJavaSdkVersion"]}"))
     }
 }

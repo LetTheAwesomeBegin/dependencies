@@ -3,7 +3,7 @@
 set -e
 
 INPUT_FILE=a.txt
-TARGET_PARENT_DIRECTORY=third-party
+TARGET_PARENT_DIRECTORY=aws-java-sdk
 TEMPLATE_PROJECT=spring-boot-template
 
 for x in `cat ${INPUT_FILE}`; do
