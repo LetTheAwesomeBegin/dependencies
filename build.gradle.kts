@@ -16,8 +16,11 @@ subprojects {
     ext {
         set("awsJavaSdkVersion", "1.11.482")
         set("awsJavaSdk2Version", "2.3.1")
+        set("axonFrameworkVersion", "4.0.3")
         set("azureVersion", "2.0.5")
         set("camelVersion", "2.23.0")
+        set("graphqlSpringVersion", "5.0.2")
+        set("graphqlSpringWebVersion", "1.0")
         set("immutablesVersion", "2.7.5")
         set("mybatisSpringBootVersion", "1.3.2")
         set("mapstructVersion", "1.2.0.Final")
