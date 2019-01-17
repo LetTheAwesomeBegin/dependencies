@@ -6,11 +6,15 @@ subprojects {
 
     repositories {
         mavenCentral()
+        jcenter()
         maven {
             url = uri("https://repo.spring.io/milestone")
         }
         maven {
             url = uri("https://plugins.gradle.org/m2/")
+        }
+        maven {
+            url = uri("http://maven.imagej.net/content/repositories/public/")
         }
     }
     ext {
