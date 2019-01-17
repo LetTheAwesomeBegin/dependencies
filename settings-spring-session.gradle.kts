@@ -1,0 +1,7 @@
+//include("spring-session:org.springframework.session_spring-session-data-gemfire")
+include("spring-session:org.springframework.session_spring-session-jdbc")
+include("spring-session:org.springframework.session_spring-session-data-geode")
+include("spring-session:org.springframework.session_spring-session-hazelcast")
+include("spring-session:org.springframework.session_spring-session-data-mongodb")
+include("spring-session:org.springframework.session_spring-session-core")
+include("spring-session:org.springframework.session_spring-session-data-redis")

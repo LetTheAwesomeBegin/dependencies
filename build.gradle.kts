@@ -30,6 +30,8 @@ subprojects {
         set("springBootAdminVersion", "2.1.1")
         set("springCloudServicesVersion", "2.0.3.RELEASE")
         set("springCloudVersion", "Greenwich.RC2")
+        set("springSecurityVersion", "5.1.3.RELEASE")
+        set("springSessionsVersion", "Bean-SR2")
         set("springShellVersion", "2.0.0.RELEASE")
         set("springStatemachineVersion", "2.0.1.RELEASE")
         set("vaadinVersion", "12.0.3")
@@ -73,5 +75,17 @@ configure(subprojects.filter { it.name.startsWith("com.amazonaws_") }) {
 configure(subprojects.filter { it.name.startsWith("software.amazon.awssdk_") }) {
     dependencies {
         "implementation"(platform("software.amazon.awssdk:bom:${extra["awsJavaSdk2Version"]}"))
+    }
+}
+
+configure(subprojects.filter { it.name.startsWith("org.springframework.security_") }) {
+    dependencies {
+        "implementation"(platform("org.springframework.security:spring-security-bom:${extra["springSecurityVersion"]}"))
+    }
+}
+
+configure(subprojects.filter { it.name.startsWith("org.springframework.session_") }) {
+    dependencies {
+        "implementation"(platform("org.springframework.session:spring-session-bom:${extra["springSessionsVersion"]}"))
     }
 }

@@ -3,9 +3,9 @@
 set -e
 
 INPUT_FILE=a.txt
-TARGET_PARENT_DIRECTORY=axon-framework
+TARGET_PARENT_DIRECTORY=spring-session
 TEMPLATE_PROJECT=spring-boot-template
-SETTINGS_FILE=settings-axon-framework.gradle.kts
+SETTINGS_FILE=settings-spring-session.gradle.kts
 
 if [ ! -d ${TARGET_PARENT_DIRECTORY} ]; then
   mkdir -v ${TARGET_PARENT_DIRECTORY}
