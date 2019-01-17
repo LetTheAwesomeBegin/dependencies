@@ -1,0 +1,3 @@
+dependencies {
+  implementation("junit:junit")
+}
