@@ -1,0 +1,6 @@
+include("spring-boot-admin:de.codecentric_spring-boot-admin-server")
+include("spring-boot-admin:de.codecentric_spring-boot-admin-server-ui")
+include("spring-boot-admin:de.codecentric_spring-boot-admin-client")
+include("spring-boot-admin:de.codecentric_spring-boot-admin-starter-client")
+include("spring-boot-admin:de.codecentric_spring-boot-admin-starter-server")
+include("spring-boot-admin:de.codecentric_spring-boot-admin-server-cloud")

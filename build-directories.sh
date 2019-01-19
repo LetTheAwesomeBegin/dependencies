@@ -3,9 +3,9 @@
 set -e
 
 INPUT_FILE=a.txt
-TARGET_PARENT_DIRECTORY=spring-boot-managed
+TARGET_PARENT_DIRECTORY=third-party
 TEMPLATE_PROJECT=spring-boot-template
-SETTINGS_FILE=settings-spring-boot-managed.gradle.kts
+SETTINGS_FILE=settings-third-party.gradle.kts
 
 if [ ! -d ${TARGET_PARENT_DIRECTORY} ]; then
   mkdir -v ${TARGET_PARENT_DIRECTORY}

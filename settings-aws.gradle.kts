@@ -275,3 +275,9 @@ include("aws-java-sdk-v2:software.amazon.awssdk_utils")
 include("aws-java-sdk-v2:software.amazon.awssdk_waf")
 include("aws-java-sdk-v2:software.amazon.awssdk_workspaces")
 include("aws-java-sdk-v2:software.amazon.awssdk_xray")
+
+// AWS Misc
+include("aws-misc:com.amazonaws_aws-encryption-sdk-java")
+include("aws-misc:com.amazonaws_dynamodb-lock-client")
+include("aws-misc:com.amazonaws_aws-dynamodb-encryption-java")
+

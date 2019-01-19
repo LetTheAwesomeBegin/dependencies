@@ -1,0 +1,8 @@
+include("project-reactor:org.reactivestreams_reactive-streams")
+include("project-reactor:io.projectreactor_reactor-core")
+include("project-reactor:io.projectreactor_reactor-test")
+include("project-reactor:io.projectreactor.addons_reactor-extra")
+include("project-reactor:io.projectreactor.addons_reactor-adapter")
+include("project-reactor:io.projectreactor.addons_reactor-logback")
+include("project-reactor:io.projectreactor.netty_reactor-netty")
+include("project-reactor:io.projectreactor.kafka_reactor-kafka")

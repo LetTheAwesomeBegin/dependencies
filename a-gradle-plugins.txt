@@ -1,0 +1,16 @@
+com.moowork.gradle:gradle-node-plugin:${extra["gradleNodePluginVersion"]}
+com.eriwen:gradle-css-plugin:${extra["gradleCssPluginVersion"]}
+com.eriwen:gradle-js-plugin:${extra["gradleJsPluginVersion"]}
+de.undercouch:gradle-download-task:${extra["gradleDownloadTaskVersion"]}
+com.github.jacobono:gradle-jaxb-plugin:${extra["gradleJaxbPluginVersion"]}
+com.moowork.gradle:gradle-node-plugin:${extra["gradleNodePluginVersion"]}
+com.bmuschko:gradle-nexus-plugin:${extra["gradleNexusPluginVersion"]}
+com.github.ben-manes:gradle-versions-plugin:${extra["gradleVersionsPluginVersion"]}
+org.hidetake:gradle-ssh-plugin:${extra["gradleSshPluginVersion"]}
+org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:${extra["sonarqubeGradlePluginVersion"]}
+org.springframework.boot:spring-boot-gradle-plugin:${extra["springBootVersion"]}
+net.ltgt.gradle:gradle-apt-plugin:${extra["gradleAptPluginVersion"]}
+cz.habarta.typescript-generator:typescript-generator-gradle-plugin:${extra["typescriptGeneratorGradlePluginVersion"]}
+org.asciidoctor:asciidoctor-gradle-plugin:${extra["asciidoctorGradlePluginVersion"]}
+com.commercehub.gradle.plugin:gradle-avro-plugin:${extra["gradleAvroPluginVersion"]}
+gradle.plugin.com.ewerk.gradle.plugins:querydsl-plugin:${extra["querydslPluginVersion"]}
